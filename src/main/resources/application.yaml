@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: homework-7
+  mvc:
+    hidden method:
+      filter:
+        enabled: true # thymeleaf - delete & update
+  jpa:
+    hibernate:
+      ddl-auto: update
+#  security:
+#    user:
+#      name: admin
+#      password: 123
